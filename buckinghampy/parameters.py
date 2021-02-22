@@ -12,10 +12,10 @@ luminous_intensity = Parameter("J", {"cd": 1})
 amount_substance = Parameter("N", {"mol": 1})
 
 # Some parameters used in physics
-velocity = Parameter("u", {"m": 1, "s": -1})
+velocity = Parameter("V", {"m": 1, "s": -1})
 acceleration = Parameter("a", {"m": 1, "s": -2})
 density = Parameter(u"\\rho", {"kg": 1, "m": -3})
-volume = Parameter('V', {"m": 3})
+volume = Parameter(u'V\\llap{--}', {"m": 3})
 area = Parameter('A', {"m": 2})
 head = Parameter("h", {"m": 1})
 angle = Parameter('\\theta', {})
