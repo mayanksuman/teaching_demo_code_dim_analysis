@@ -1,0 +1,4 @@
+texlive
+texlive-latex-extra
+cm-super
+dvipng
